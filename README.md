@@ -1,3 +1,4 @@
+
 \documentclass[10pt,a4paper]{article}
 
 \usepackage[margin=0.65in]{geometry}
