@@ -9,13 +9,6 @@
 
 <!-- PROJECT SHIELDS -->
 <div align="center">
-
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-
 </div>
 
 <!-- PROJECT LOGO -->
@@ -60,7 +53,7 @@
     <li><a href="#usage">Usage</a></li>
     <li><a href="#blockchain-used">Blockchain Used</a></li>
     <li><a href="#repository-structure">Repository Structure</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
+  
     <li><a href="#known-limitations">Known Limitations</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
@@ -75,7 +68,7 @@
 **FaceTrace** is an end‑to‑end proof‑of‑concept built for HH Goa 2026 Task 3. Given a single face photo, it:
 
 1. detects and crops the face,
-2. genuinely searches the live web for a real social‑media post whose image matches those pixels (no hardcoded results), and
+2. genuinely searches the live web for a real social‑media post whose image matches those pixels , and
 3. writes a tamper‑evident fingerprint of that discovery to a blockchain, so anyone can re‑verify the finding later without trusting a database.
 
 The point isn't just "find a photo" — it's proving that a specific piece of web evidence was discovered at a specific time and hasn't been altered since, using cryptographic hashing plus an on‑chain record instead of a screenshot anyone could edit.
@@ -126,7 +119,7 @@ flowchart TD
 | 7 | **Blockchain Upload** | `chain/client.py` + `chain/contract.sol` | Compiles and deploys the `EvidenceVerifier` Solidity contract to a local Ganache chain, then calls `submitHash()` to write the evidence hash on‑chain. | Solidity 0.8 · web3.py · py‑solc‑x · Ganache |
 | 8 | **Re-verification** | `chain/client.py` (`is_verified`) | Calls `isVerified(hash)` to read the record straight back from the chain, then deliberately tampers with one field of the bundle, re‑hashes it, and shows that hash comes back `False` — proving the on‑chain record is tamper‑evident, not just stored. | On‑chain read call |
 
-Run end‑to‑end, `demo.py` prints every one of these stages live, including the confidence score of the winning match and the tamper‑check result — this is exactly what the screen recording should capture.
+Run end‑to‑end, `demo.py` prints every one of these stages live, including the confidence score of the winning match and the tamper‑check result.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -251,21 +244,6 @@ function isVerified(bytes32 hash) public view returns (bool);
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [x] Face detection + smart crop (DeepFace + OpenCV)
-- [x] Pixel-only visual embedding (MobileNetV2)
-- [x] Multi-backend reverse-image search with live-post verification
-- [x] On-chain evidence hash, re-verification, and tamper check
-- [ ] Swap the ranking embedding from general-purpose MobileNetV2 to identity-grade `face_id/encode_face.py` (Facenet512) for stricter same-person matching
-- [ ] Wire up the Wikidata named-profile lookup in `search/person_profiles.py`
-- [ ] Deploy to a persistent public testnet (Sepolia / Polygon Amoy) instead of local Ganache
-- [ ] Minimal web UI for uploading a photo and viewing the on-chain proof (not required by the task brief)
-
-See the [open issues](https://github.com/github_username/repo_name/issues) for the full list of proposed features and known issues.
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- KNOWN LIMITATIONS -->
