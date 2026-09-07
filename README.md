@@ -291,7 +291,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 [![](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:adityasuwalka12@gmail.com)
 
 **VL Praneeth:**
-[![](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tejal-uplenchwar-a93a31226)
+[![](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/v-l-praneeth-69a071246)
 [![](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:da26m026@smail.iitm.ac.in)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
