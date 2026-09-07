@@ -1,0 +1,7 @@
+deepface
+google-cloud-vision
+web3
+py-solc-x
+tf-keras
+opencv-python>=4.8,<4.12
+requests
