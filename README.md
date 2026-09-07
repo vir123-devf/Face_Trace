@@ -104,8 +104,6 @@ flowchart TD
     J --> K["Stage 8 · Re-verification\nisVerified(hash) → true\nisVerified(tampered hash) → false"]
 ```
 
-> GitHub renders the diagram above natively — no extra tooling needed to view it on the repo page.
-
 ### Stage-by-stage breakdown
 
 | # | Stage | Module | What happens | Tech |
