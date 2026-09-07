@@ -1,28 +1,34 @@
+<a name="readme-top"></a>
 
-\documentclass[10pt,a4paper]{article}
+<!-- PROJECT HEADER -->
+<div align="center">
 
-\usepackage[margin=0.65in]{geometry}
-\usepackage{titlesec}
-\usepackage{hyperref}
-\usepackage{enumitem}
+  <h1 align="center">FaceTrace 🔎⛓️</h1>
 
-\hypersetup{
-    colorlinks=true,
-    linkcolor=blue,
-    urlcolor=blue
-}
+  <p align="center">
+    <strong>Team Chiller</strong>
+    <br />
+    Hacker House Goa 2026
+    <br />
+    <em>Shortlisting Task 3: Face Identification & Blockchain Verification</em>
+    <br />
+    <br />
+    Face scan → genuine social-media match → tamper-evident blockchain record.
+    <br />
+    <br />
+    <a href="#pipeline-overview"><strong>Explore the Pipeline »</strong></a>
+    <br />
+    <br />
+    <a href="https://www.loom.com/share/6f0d06ffd6234666b90e946bf8b0e0a2">Watch the Demo</a>
+    ·
+    <a href="https://github.com/vir123-devf/Face_Trace/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/vir123-devf/Face_Trace/issues">Request Feature</a>
+  </p>
 
-\titleformat{\section}
-  {\normalsize\bfseries}
-  {}
-  {0pt}
-  {}
+</div>
 
-\setlength{\parindent}{0pt}
-\setlength{\parskip}{3pt}
-
-\begin{document}
-
+---
 
 
 <!-- TABLE OF CONTENTS -->
