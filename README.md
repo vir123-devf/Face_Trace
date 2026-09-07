@@ -1,36 +1,15 @@
-<a name="readme-top"></a>
-
-<!--
-*** Fill in the bracketed placeholders (github_username, repo_name, your info, etc.)
-*** before you push this. Search for "TODO" to find every spot that needs it.
-*** Structure based on the Best-README-Template by othneildrew:
-*** https://github.com/othneildrew/Best-README-Template
--->
-
-<!-- PROJECT SHIELDS -->
-<div align="center">
-</div>
-
-<!-- PROJECT LOGO -->
-<br />
-<div align="center">
-  <h3 align="center">FaceTrace 🔎⛓️</h3>
-  <p align="center">
-    Face scan → genuine social‑media match → tamper‑evident blockchain record.
-    <br />
-    <em>HH Goa 2026 · Shortlisting Task 3: Face Identification &amp; Blockchain Verification</em>
-    <br />
-    <br />
-    <a href="#pipeline-overview"><strong>Explore the pipeline »</strong></a>
-    <br />
-    <br />
-    <a href="TODO-your-demo-video-link">Watch the Demo</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
-  </p>
-</div>
+\begin{center}
+    {\Large \textbf{FaceTrace 🔎⛓️}}\\
+    \vspace{3pt}
+    {\normalsize \textbf{Team Chiller}}\\
+    \vspace{2pt}
+    \textit{Hacker House Goa 2026}\\
+    \vspace{2pt}
+    \textit{Shortlisting Task 3: Face Identification \& Blockchain Verification}\\
+    \vspace{3pt}
+    \textit{Face scan $\rightarrow$ genuine social-media match
+    $\rightarrow$ tamper-evident blockchain record}
+\end{center}
 
 <!-- TABLE OF CONTENTS -->
 <details>
