@@ -1,15 +1,28 @@
-\begin{center}
-    {\Large \textbf{FaceTrace 🔎⛓️}}\\
-    \vspace{3pt}
-    {\normalsize \textbf{Team Chiller}}\\
-    \vspace{2pt}
-    \textit{Hacker House Goa 2026}\\
-    \vspace{2pt}
-    \textit{Shortlisting Task 3: Face Identification \& Blockchain Verification}\\
-    \vspace{3pt}
-    \textit{Face scan $\rightarrow$ genuine social-media match
-    $\rightarrow$ tamper-evident blockchain record}
-\end{center}
+\documentclass[10pt,a4paper]{article}
+
+\usepackage[margin=0.65in]{geometry}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{enumitem}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue
+}
+
+\titleformat{\section}
+  {\normalsize\bfseries}
+  {}
+  {0pt}
+  {}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{3pt}
+
+\begin{document}
+
+
 
 <!-- TABLE OF CONTENTS -->
 <details>
