@@ -6,7 +6,7 @@
   <h1 align="center">FaceTrace 🔎⛓️</h1>
 
   <p align="center">
-    <strong>Team Chiller</strong>
+    <strong>Team Chillar</strong>
     <br />
     Hacker House Goa 2026
     <br />
